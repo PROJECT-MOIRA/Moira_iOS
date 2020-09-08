@@ -1,0 +1,6 @@
+framework module Pods_Moira_iOS_Moira_iOSUITests {
+  umbrella header "Pods-Moira_iOS-Moira_iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
