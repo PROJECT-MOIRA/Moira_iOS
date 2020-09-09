@@ -34,16 +34,10 @@ extension Reactive where Base: MoyaProviderType {
                     case let .failure(error):
                         let errorBody = (try? error.response?.mapJSON() as? Dictionary<String, Any>) ?? Dictionary()
                         let status = error.response?.statusCode ?? 0
-                        
-                        
-                        if(status == 410){
-                            
+                        if(status != 200){
+                            let newError = NetWorkError.Custom(status: status, errorBody: errorBody)
+                            single(.error(newError))
                         }
-                        
-                        
-                        let newError = NetWorkError.Custom(status: status, errorBody: errorBody)
-                    
-                        single(.error(newError))
                 }
             }
             

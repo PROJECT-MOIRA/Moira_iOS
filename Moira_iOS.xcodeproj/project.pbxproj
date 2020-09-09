@@ -10,9 +10,62 @@
 		00E1646F3E477DDACA1728E0 /* Pods_Moira_iOS_Moira_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3BEFBD0720451ECDECBE5C /* Pods_Moira_iOS_Moira_iOSUITests.framework */; };
 		094797EF301510A297B032E2 /* Pods_Moira_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5BD61753E98E6229797B2A /* Pods_Moira_iOSTests.framework */; };
 		1B0F14A47CC8D869E851A536 /* Pods_Moira_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F66DA153E42357F8CB2E20 /* Pods_Moira_iOS.framework */; };
+		AE2C8CAD2507C30D005DBFA0 /* JobViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C8CAC2507C30D005DBFA0 /* JobViewCell.swift */; };
+		AE2C8CAF2507C318005DBFA0 /* StudyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C8CAE2507C318005DBFA0 /* StudyViewCell.swift */; };
+		AE3CC2E82507792F000BDF47 /* JobViewerViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CC2E72507792F000BDF47 /* JobViewerViewReactor.swift */; };
+		AE3CC2EA2507793E000BDF47 /* StudyGroupViewerViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CC2E92507793E000BDF47 /* StudyGroupViewerViewReactor.swift */; };
+		AE3CC2EC2507794E000BDF47 /* WriteGetJobViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CC2EB2507794E000BDF47 /* WriteGetJobViewReactor.swift */; };
+		AE3CC2EE25077958000BDF47 /* WriteGetStudyGroupViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CC2ED25077958000BDF47 /* WriteGetStudyGroupViewReactor.swift */; };
+		AE3CC2F025077E7C000BDF47 /* MoiraAuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CC2EF25077E7C000BDF47 /* MoiraAuthAPI.swift */; };
+		AE6E55CF250755FC00F87353 /* HomeViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55CE250755FC00F87353 /* HomeViewReactor.swift */; };
+		AE6E55D12507561500F87353 /* GetJobViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55D02507561500F87353 /* GetJobViewReactor.swift */; };
+		AE6E55D32507563500F87353 /* GetStudyMemberViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55D22507563500F87353 /* GetStudyMemberViewReactor.swift */; };
+		AE6E55D72507565C00F87353 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55D62507565C00F87353 /* HomeViewController.swift */; };
+		AE6E55D92507566300F87353 /* GetJobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55D82507566300F87353 /* GetJobController.swift */; };
+		AE6E55DB2507567300F87353 /* GetStudyMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55DA2507567300F87353 /* GetStudyMemberViewController.swift */; };
+		AE6E55DD2507568700F87353 /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55DC2507568700F87353 /* AllViewController.swift */; };
+		AE6E55DF2507716100F87353 /* WriteGetJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55DE2507716100F87353 /* WriteGetJobViewController.swift */; };
+		AE6E55E12507718A00F87353 /* WriteGetStudyGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55E02507718A00F87353 /* WriteGetStudyGroupViewController.swift */; };
+		AE6E55E82507723800F87353 /* JobViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55E72507723800F87353 /* JobViewerViewController.swift */; };
+		AE6E55EA2507724800F87353 /* StudyGroupViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E55E92507724800F87353 /* StudyGroupViewerViewController.swift */; };
+		AE7C772C2507875400EFA28E /* MoiraGetMemberAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C772B2507875400EFA28E /* MoiraGetMemberAPI.swift */; };
+		AE7C772F25078C8200EFA28E /* PostJobRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C772E25078C8200EFA28E /* PostJobRequest.swift */; };
+		AE7C773125078C8C00EFA28E /* DeleteJobRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C773025078C8C00EFA28E /* DeleteJobRequest.swift */; };
+		AE7C773325078C9800EFA28E /* PutJobRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C773225078C9800EFA28E /* PutJobRequest.swift */; };
+		AE7C773825078D8D00EFA28E /* PostStudyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C773725078D8D00EFA28E /* PostStudyRequest.swift */; };
+		AE7C773A25078D9500EFA28E /* DeleteStudyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C773925078D9500EFA28E /* DeleteStudyRequest.swift */; };
+		AE7C773C25078DA100EFA28E /* PutStudyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C773B25078DA100EFA28E /* PutStudyRequest.swift */; };
+		AE7C773E250790C100EFA28E /* AuthRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C773D250790C100EFA28E /* AuthRemote.swift */; };
+		AE7C7740250791F400EFA28E /* StudyRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C773F250791F400EFA28E /* StudyRemote.swift */; };
+		AE7C77422507920600EFA28E /* JobRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77412507920600EFA28E /* JobRemote.swift */; };
+		AE7C7744250798C300EFA28E /* AuthDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C7743250798C300EFA28E /* AuthDataSource.swift */; };
+		AE7C7746250798CC00EFA28E /* StudyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C7745250798CC00EFA28E /* StudyDataSource.swift */; };
+		AE7C7748250798D500EFA28E /* JobDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C7747250798D500EFA28E /* JobDataSource.swift */; };
+		AE7C775325079AB900EFA28E /* JobStudyPostBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C775225079AB900EFA28E /* JobStudyPostBase.swift */; };
+		AE7C775525079ABF00EFA28E /* JobPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C775425079ABF00EFA28E /* JobPost.swift */; };
+		AE7C775725079AC600EFA28E /* StudyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C775625079AC600EFA28E /* StudyPost.swift */; };
+		AE7C77592507A06400EFA28E /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77582507A06400EFA28E /* LoginResponse.swift */; };
+		AE7C775B2507A5A800EFA28E /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C775A2507A5A800EFA28E /* AuthRepository.swift */; };
+		AE7C775D2507A5C000EFA28E /* StudyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C775C2507A5C000EFA28E /* StudyRepository.swift */; };
+		AE7C775F2507A5CC00EFA28E /* JobRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C775E2507A5CC00EFA28E /* JobRepository.swift */; };
+		AE7C77612507A66000EFA28E /* AuthRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77602507A66000EFA28E /* AuthRepositoryImpl.swift */; };
+		AE7C77632507A66A00EFA28E /* StudyRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77622507A66A00EFA28E /* StudyRepositoryImpl.swift */; };
+		AE7C77652507A67100EFA28E /* JobRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77642507A67100EFA28E /* JobRepositoryImpl.swift */; };
+		AE7C776A2507A82B00EFA28E /* GetStudyPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77692507A82B00EFA28E /* GetStudyPostUseCase.swift */; };
+		AE7C776C2507A84400EFA28E /* PostStudyPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C776B2507A84400EFA28E /* PostStudyPostUseCase.swift */; };
+		AE7C776E2507A84900EFA28E /* PutStudyPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C776D2507A84900EFA28E /* PutStudyPostUseCase.swift */; };
+		AE7C77702507A84E00EFA28E /* DeleteStudyPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C776F2507A84E00EFA28E /* DeleteStudyPostUseCase.swift */; };
+		AE7C77722507A88C00EFA28E /* GetJobPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77712507A88C00EFA28E /* GetJobPostUseCase.swift */; };
+		AE7C77742507A89000EFA28E /* PostJobPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77732507A89000EFA28E /* PostJobPostUseCase.swift */; };
+		AE7C77762507A89400EFA28E /* PutJobPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77752507A89400EFA28E /* PutJobPostUseCase.swift */; };
+		AE7C77782507A89A00EFA28E /* DeleteJobPostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77772507A89A00EFA28E /* DeleteJobPostUseCase.swift */; };
+		AE7C777A2507A8AC00EFA28E /* PostLoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77792507A8AC00EFA28E /* PostLoginUseCase.swift */; };
+		AE7C777C2507A8B400EFA28E /* PostRegisterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C777B2507A8B400EFA28E /* PostRegisterUseCase.swift */; };
+		AE7C777E2507B50D00EFA28E /* MoiraPortfolioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C777D2507B50D00EFA28E /* MoiraPortfolioAPI.swift */; };
+		AE7C77812507B82A00EFA28E /* PostPortfolioRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77802507B82A00EFA28E /* PostPortfolioRequest.swift */; };
+		AE7C77832507B8E300EFA28E /* PortfolioRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C77822507B8E300EFA28E /* PortfolioRemote.swift */; };
 		AED3C1642507158200FD13A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C1632507158200FD13A6 /* AppDelegate.swift */; };
 		AED3C1662507158200FD13A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C1652507158200FD13A6 /* SceneDelegate.swift */; };
-		AED3C1682507158200FD13A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C1672507158200FD13A6 /* ViewController.swift */; };
 		AED3C16B2507158200FD13A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED3C1692507158200FD13A6 /* Main.storyboard */; };
 		AED3C16D2507158400FD13A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED3C16C2507158400FD13A6 /* Assets.xcassets */; };
 		AED3C1702507158400FD13A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED3C16E2507158400FD13A6 /* LaunchScreen.storyboard */; };
@@ -40,13 +93,17 @@
 		AED3C1D62507191D00FD13A6 /* BaseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C1C82507191B00FD13A6 /* BaseDataSource.swift */; };
 		AED3C1D72507191D00FD13A6 /* BaseRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C1C92507191B00FD13A6 /* BaseRegisterViewController.swift */; };
 		AED3C23B2507193700FD13A6 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C1E02507193700FD13A6 /* Response.swift */; };
-		AED3C2502507193700FD13A6 /* MoiraSampleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C2012507193700FD13A6 /* MoiraSampleAPI.swift */; };
 		AED3C25D2507193700FD13A6 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C2112507193700FD13A6 /* LoginRequest.swift */; };
 		AED3C25E2507193700FD13A6 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C2122507193700FD13A6 /* RegisterRequest.swift */; };
 		AED3C2842507196900FD13A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C2802507196900FD13A6 /* Constants.swift */; };
 		AED3C2862507196900FD13A6 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C2822507196900FD13A6 /* KeychainService.swift */; };
 		AED3C2872507196900FD13A6 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C2832507196900FD13A6 /* AuthController.swift */; };
 		AED3C29425071AC000FD13A6 /* TimeDbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C28E25071AC000FD13A6 /* TimeDbManager.swift */; };
+		AED3C29E250722C000FD13A6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3C29D250722C000FD13A6 /* CardView.swift */; };
+		AEE06E7625084AB7004BFED3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE06E7525084AB7004BFED3 /* LoginViewController.swift */; };
+		AEE06E7825084CC1004BFED3 /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE06E7725084CC1004BFED3 /* LoginReactor.swift */; };
+		AEE6E507250843C800CE0BFF /* JobMoreViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE6E506250843C800CE0BFF /* JobMoreViewCell.swift */; };
+		AEE6E50C250843F400CE0BFF /* StudyMoreViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE6E50B250843F400CE0BFF /* StudyMoreViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,10 +127,63 @@
 		02F66DA153E42357F8CB2E20 /* Pods_Moira_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moira_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149BF2E4C67A10D550F96E23 /* Pods-Moira_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moira_iOS.release.xcconfig"; path = "Target Support Files/Pods-Moira_iOS/Pods-Moira_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		2C3BEFBD0720451ECDECBE5C /* Pods_Moira_iOS_Moira_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moira_iOS_Moira_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2C8CAC2507C30D005DBFA0 /* JobViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewCell.swift; sourceTree = "<group>"; };
+		AE2C8CAE2507C318005DBFA0 /* StudyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewCell.swift; sourceTree = "<group>"; };
+		AE3CC2E72507792F000BDF47 /* JobViewerViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewerViewReactor.swift; sourceTree = "<group>"; };
+		AE3CC2E92507793E000BDF47 /* StudyGroupViewerViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupViewerViewReactor.swift; sourceTree = "<group>"; };
+		AE3CC2EB2507794E000BDF47 /* WriteGetJobViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteGetJobViewReactor.swift; sourceTree = "<group>"; };
+		AE3CC2ED25077958000BDF47 /* WriteGetStudyGroupViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteGetStudyGroupViewReactor.swift; sourceTree = "<group>"; };
+		AE3CC2EF25077E7C000BDF47 /* MoiraAuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiraAuthAPI.swift; sourceTree = "<group>"; };
+		AE6E55CE250755FC00F87353 /* HomeViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewReactor.swift; sourceTree = "<group>"; };
+		AE6E55D02507561500F87353 /* GetJobViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJobViewReactor.swift; sourceTree = "<group>"; };
+		AE6E55D22507563500F87353 /* GetStudyMemberViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStudyMemberViewReactor.swift; sourceTree = "<group>"; };
+		AE6E55D62507565C00F87353 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE6E55D82507566300F87353 /* GetJobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJobController.swift; sourceTree = "<group>"; };
+		AE6E55DA2507567300F87353 /* GetStudyMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStudyMemberViewController.swift; sourceTree = "<group>"; };
+		AE6E55DC2507568700F87353 /* AllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		AE6E55DE2507716100F87353 /* WriteGetJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteGetJobViewController.swift; sourceTree = "<group>"; };
+		AE6E55E02507718A00F87353 /* WriteGetStudyGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteGetStudyGroupViewController.swift; sourceTree = "<group>"; };
+		AE6E55E72507723800F87353 /* JobViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewerViewController.swift; sourceTree = "<group>"; };
+		AE6E55E92507724800F87353 /* StudyGroupViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupViewerViewController.swift; sourceTree = "<group>"; };
+		AE7C772B2507875400EFA28E /* MoiraGetMemberAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiraGetMemberAPI.swift; sourceTree = "<group>"; };
+		AE7C772E25078C8200EFA28E /* PostJobRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostJobRequest.swift; sourceTree = "<group>"; };
+		AE7C773025078C8C00EFA28E /* DeleteJobRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteJobRequest.swift; sourceTree = "<group>"; };
+		AE7C773225078C9800EFA28E /* PutJobRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutJobRequest.swift; sourceTree = "<group>"; };
+		AE7C773725078D8D00EFA28E /* PostStudyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostStudyRequest.swift; sourceTree = "<group>"; };
+		AE7C773925078D9500EFA28E /* DeleteStudyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteStudyRequest.swift; sourceTree = "<group>"; };
+		AE7C773B25078DA100EFA28E /* PutStudyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutStudyRequest.swift; sourceTree = "<group>"; };
+		AE7C773D250790C100EFA28E /* AuthRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemote.swift; sourceTree = "<group>"; };
+		AE7C773F250791F400EFA28E /* StudyRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudyRemote.swift; path = ../../../../../../../../../../Applications/StudyRemote.swift; sourceTree = "<group>"; };
+		AE7C77412507920600EFA28E /* JobRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRemote.swift; sourceTree = "<group>"; };
+		AE7C7743250798C300EFA28E /* AuthDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataSource.swift; sourceTree = "<group>"; };
+		AE7C7745250798CC00EFA28E /* StudyDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyDataSource.swift; sourceTree = "<group>"; };
+		AE7C7747250798D500EFA28E /* JobDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDataSource.swift; sourceTree = "<group>"; };
+		AE7C775225079AB900EFA28E /* JobStudyPostBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStudyPostBase.swift; sourceTree = "<group>"; };
+		AE7C775425079ABF00EFA28E /* JobPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPost.swift; sourceTree = "<group>"; };
+		AE7C775625079AC600EFA28E /* StudyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPost.swift; sourceTree = "<group>"; };
+		AE7C77582507A06400EFA28E /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		AE7C775A2507A5A800EFA28E /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		AE7C775C2507A5C000EFA28E /* StudyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyRepository.swift; sourceTree = "<group>"; };
+		AE7C775E2507A5CC00EFA28E /* JobRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRepository.swift; sourceTree = "<group>"; };
+		AE7C77602507A66000EFA28E /* AuthRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryImpl.swift; sourceTree = "<group>"; };
+		AE7C77622507A66A00EFA28E /* StudyRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyRepositoryImpl.swift; sourceTree = "<group>"; };
+		AE7C77642507A67100EFA28E /* JobRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRepositoryImpl.swift; sourceTree = "<group>"; };
+		AE7C77692507A82B00EFA28E /* GetStudyPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStudyPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C776B2507A84400EFA28E /* PostStudyPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostStudyPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C776D2507A84900EFA28E /* PutStudyPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutStudyPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C776F2507A84E00EFA28E /* DeleteStudyPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteStudyPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C77712507A88C00EFA28E /* GetJobPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJobPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C77732507A89000EFA28E /* PostJobPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostJobPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C77752507A89400EFA28E /* PutJobPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutJobPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C77772507A89A00EFA28E /* DeleteJobPostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteJobPostUseCase.swift; sourceTree = "<group>"; };
+		AE7C77792507A8AC00EFA28E /* PostLoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLoginUseCase.swift; sourceTree = "<group>"; };
+		AE7C777B2507A8B400EFA28E /* PostRegisterUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRegisterUseCase.swift; sourceTree = "<group>"; };
+		AE7C777D2507B50D00EFA28E /* MoiraPortfolioAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiraPortfolioAPI.swift; sourceTree = "<group>"; };
+		AE7C77802507B82A00EFA28E /* PostPortfolioRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPortfolioRequest.swift; sourceTree = "<group>"; };
+		AE7C77822507B8E300EFA28E /* PortfolioRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioRemote.swift; sourceTree = "<group>"; };
 		AED3C1602507158200FD13A6 /* Moira_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moira_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED3C1632507158200FD13A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AED3C1652507158200FD13A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AED3C1672507158200FD13A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AED3C16A2507158200FD13A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AED3C16C2507158400FD13A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED3C16F2507158400FD13A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,13 +216,17 @@
 		AED3C1C82507191B00FD13A6 /* BaseDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDataSource.swift; sourceTree = "<group>"; };
 		AED3C1C92507191B00FD13A6 /* BaseRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRegisterViewController.swift; sourceTree = "<group>"; };
 		AED3C1E02507193700FD13A6 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		AED3C2012507193700FD13A6 /* MoiraSampleAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoiraSampleAPI.swift; sourceTree = "<group>"; };
 		AED3C2112507193700FD13A6 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		AED3C2122507193700FD13A6 /* RegisterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
 		AED3C2802507196900FD13A6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AED3C2822507196900FD13A6 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		AED3C2832507196900FD13A6 /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 		AED3C28E25071AC000FD13A6 /* TimeDbManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDbManager.swift; sourceTree = "<group>"; };
+		AED3C29D250722C000FD13A6 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AEE06E7525084AB7004BFED3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEE06E7725084CC1004BFED3 /* LoginReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReactor.swift; sourceTree = "<group>"; };
+		AEE6E506250843C800CE0BFF /* JobMoreViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMoreViewCell.swift; sourceTree = "<group>"; };
+		AEE6E50B250843F400CE0BFF /* StudyMoreViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMoreViewCell.swift; sourceTree = "<group>"; };
 		C229448A827FC52E31695AA3 /* Pods-Moira_iOS-Moira_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moira_iOS-Moira_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Moira_iOS-Moira_iOSUITests/Pods-Moira_iOS-Moira_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C796E592F015ECE1CE79D5EA /* Pods-Moira_iOS-Moira_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moira_iOS-Moira_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moira_iOS-Moira_iOSUITests/Pods-Moira_iOS-Moira_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9D249BF8BABD94250E49635 /* Pods-Moira_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moira_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Moira_iOS/Pods-Moira_iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +271,133 @@
 				CA5BD61753E98E6229797B2A /* Pods_Moira_iOSTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE2C8CAB2507C2FD005DBFA0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C8CAC2507C30D005DBFA0 /* JobViewCell.swift */,
+				AE2C8CAE2507C318005DBFA0 /* StudyViewCell.swift */,
+				AEE6E506250843C800CE0BFF /* JobMoreViewCell.swift */,
+				AEE6E50B250843F400CE0BFF /* StudyMoreViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AE3CC2E425077911000BDF47 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E55CE250755FC00F87353 /* HomeViewReactor.swift */,
+				AE6E55D02507561500F87353 /* GetJobViewReactor.swift */,
+				AE6E55D22507563500F87353 /* GetStudyMemberViewReactor.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AE3CC2E525077918000BDF47 /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CC2EB2507794E000BDF47 /* WriteGetJobViewReactor.swift */,
+				AE3CC2ED25077958000BDF47 /* WriteGetStudyGroupViewReactor.swift */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		AE3CC2E62507791B000BDF47 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CC2E72507792F000BDF47 /* JobViewerViewReactor.swift */,
+				AE3CC2E92507793E000BDF47 /* StudyGroupViewerViewReactor.swift */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+		AE6E55E2250771B800F87353 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E55D62507565C00F87353 /* HomeViewController.swift */,
+				AE6E55D82507566300F87353 /* GetJobController.swift */,
+				AE6E55DA2507567300F87353 /* GetStudyMemberViewController.swift */,
+				AE6E55DC2507568700F87353 /* AllViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AE6E55E3250771D100F87353 /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E55DE2507716100F87353 /* WriteGetJobViewController.swift */,
+				AE6E55E02507718A00F87353 /* WriteGetStudyGroupViewController.swift */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		AE6E55E62507722700F87353 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E55E72507723800F87353 /* JobViewerViewController.swift */,
+				AE6E55E92507724800F87353 /* StudyGroupViewerViewController.swift */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+		AE7C772D25078C3500EFA28E /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C772E25078C8200EFA28E /* PostJobRequest.swift */,
+				AE7C773225078C9800EFA28E /* PutJobRequest.swift */,
+				AE7C773025078C8C00EFA28E /* DeleteJobRequest.swift */,
+			);
+			path = Job;
+			sourceTree = "<group>";
+		};
+		AE7C773425078D7600EFA28E /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C773725078D8D00EFA28E /* PostStudyRequest.swift */,
+				AE7C773B25078DA100EFA28E /* PutStudyRequest.swift */,
+				AE7C773925078D9500EFA28E /* DeleteStudyRequest.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		AE7C77662507A80000EFA28E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C77792507A8AC00EFA28E /* PostLoginUseCase.swift */,
+				AE7C777B2507A8B400EFA28E /* PostRegisterUseCase.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AE7C77672507A80E00EFA28E /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C77712507A88C00EFA28E /* GetJobPostUseCase.swift */,
+				AE7C77732507A89000EFA28E /* PostJobPostUseCase.swift */,
+				AE7C77752507A89400EFA28E /* PutJobPostUseCase.swift */,
+				AE7C77772507A89A00EFA28E /* DeleteJobPostUseCase.swift */,
+			);
+			path = Job;
+			sourceTree = "<group>";
+		};
+		AE7C77682507A81000EFA28E /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C77692507A82B00EFA28E /* GetStudyPostUseCase.swift */,
+				AE7C776D2507A84900EFA28E /* PutStudyPostUseCase.swift */,
+				AE7C776F2507A84E00EFA28E /* DeleteStudyPostUseCase.swift */,
+				AE7C776B2507A84400EFA28E /* PostStudyPostUseCase.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		AE7C777F2507B80A00EFA28E /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C77802507B82A00EFA28E /* PostPortfolioRequest.swift */,
+			);
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 		AED3C1572507158200FD13A6 = {
@@ -252,10 +493,10 @@
 		AED3C1972507178D00FD13A6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AED3C28825071A6900FD13A6 /* Cache */,
+				AED3C28925071A7000FD13A6 /* Remote */,
 				AED3C28B25071A7900FD13A6 /* Repository */,
 				AED3C28A25071A7400FD13A6 /* DataSource */,
-				AED3C28925071A7000FD13A6 /* Remote */,
-				AED3C28825071A6900FD13A6 /* Cache */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -263,6 +504,7 @@
 		AED3C1982507179000FD13A6 /* widget */ = {
 			isa = PBXGroup;
 			children = (
+				AED3C29C2507226A00FD13A6 /* CustomUI */,
 				AED3C28D25071AC000FD13A6 /* DataBase */,
 				AED3C27F2507196900FD13A6 /* Util */,
 				AED3C1DE2507193700FD13A6 /* NetWork */,
@@ -278,6 +520,10 @@
 		AED3C199250717A600FD13A6 /* Reactor */ = {
 			isa = PBXGroup;
 			children = (
+				AE3CC2E62507791B000BDF47 /* Viewer */,
+				AE3CC2E525077918000BDF47 /* Write */,
+				AE3CC2E425077911000BDF47 /* TabBar */,
+				AEE06E7725084CC1004BFED3 /* LoginReactor.swift */,
 			);
 			path = Reactor;
 			sourceTree = "<group>";
@@ -285,8 +531,12 @@
 		AED3C19B250717AE00FD13A6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AE2C8CAB2507C2FD005DBFA0 /* Cell */,
+				AE6E55E62507722700F87353 /* Viewer */,
+				AE6E55E3250771D100F87353 /* Write */,
+				AE6E55E2250771B800F87353 /* TabBar */,
 				AED3C1692507158200FD13A6 /* Main.storyboard */,
-				AED3C1672507158200FD13A6 /* ViewController.swift */,
+				AEE06E7525084AB7004BFED3 /* LoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +544,9 @@
 		AED3C19C250717D300FD13A6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C775225079AB900EFA28E /* JobStudyPostBase.swift */,
+				AE7C775425079ABF00EFA28E /* JobPost.swift */,
+				AE7C775625079AC600EFA28E /* StudyPost.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -385,6 +638,7 @@
 		AED3C1E12507193700FD13A6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C77582507A06400EFA28E /* LoginResponse.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -392,7 +646,9 @@
 		AED3C2002507193700FD13A6 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				AED3C2012507193700FD13A6 /* MoiraSampleAPI.swift */,
+				AE3CC2EF25077E7C000BDF47 /* MoiraAuthAPI.swift */,
+				AE7C772B2507875400EFA28E /* MoiraGetMemberAPI.swift */,
+				AE7C777D2507B50D00EFA28E /* MoiraPortfolioAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -400,6 +656,9 @@
 		AED3C20D2507193700FD13A6 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C777F2507B80A00EFA28E /* Portfolio */,
+				AE7C773425078D7600EFA28E /* Study */,
+				AE7C772D25078C3500EFA28E /* Job */,
 				AED3C2102507193700FD13A6 /* Auth */,
 			);
 			path = Request;
@@ -434,6 +693,10 @@
 		AED3C28925071A7000FD13A6 /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C773D250790C100EFA28E /* AuthRemote.swift */,
+				AE7C773F250791F400EFA28E /* StudyRemote.swift */,
+				AE7C77412507920600EFA28E /* JobRemote.swift */,
+				AE7C77822507B8E300EFA28E /* PortfolioRemote.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -441,6 +704,9 @@
 		AED3C28A25071A7400FD13A6 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C7743250798C300EFA28E /* AuthDataSource.swift */,
+				AE7C7745250798CC00EFA28E /* StudyDataSource.swift */,
+				AE7C7747250798D500EFA28E /* JobDataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -448,6 +714,9 @@
 		AED3C28B25071A7900FD13A6 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C77602507A66000EFA28E /* AuthRepositoryImpl.swift */,
+				AE7C77622507A66A00EFA28E /* StudyRepositoryImpl.swift */,
+				AE7C77642507A67100EFA28E /* JobRepositoryImpl.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -463,6 +732,9 @@
 		AED3C29A25071BDF00FD13A6 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C775A2507A5A800EFA28E /* AuthRepository.swift */,
+				AE7C775C2507A5C000EFA28E /* StudyRepository.swift */,
+				AE7C775E2507A5CC00EFA28E /* JobRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -470,8 +742,19 @@
 		AED3C29B25071BE500FD13A6 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				AE7C77682507A81000EFA28E /* Study */,
+				AE7C77672507A80E00EFA28E /* Job */,
+				AE7C77662507A80000EFA28E /* Auth */,
 			);
 			path = UseCase;
+			sourceTree = "<group>";
+		};
+		AED3C29C2507226A00FD13A6 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				AED3C29D250722C000FD13A6 /* CardView.swift */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 		F3398352B8EEC4A9EFB5F845 /* Pods */ = {
@@ -726,37 +1009,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED3C25D2507193700FD13A6 /* LoginRequest.swift in Sources */,
+				AE7C773825078D8D00EFA28E /* PostStudyRequest.swift in Sources */,
 				AED3C25E2507193700FD13A6 /* RegisterRequest.swift in Sources */,
-				AED3C2502507193700FD13A6 /* MoiraSampleAPI.swift in Sources */,
 				AED3C1A52507180F00FD13A6 /* DataBaseError.swift in Sources */,
 				AED3C1D32507191D00FD13A6 /* ParamUseCase.swift in Sources */,
+				AE6E55D12507561500F87353 /* GetJobViewReactor.swift in Sources */,
+				AE7C77812507B82A00EFA28E /* PostPortfolioRequest.swift in Sources */,
 				AED3C2842507196900FD13A6 /* Constants.swift in Sources */,
+				AE7C77612507A66000EFA28E /* AuthRepositoryImpl.swift in Sources */,
+				AE3CC2EA2507793E000BDF47 /* StudyGroupViewerViewReactor.swift in Sources */,
+				AE7C77722507A88C00EFA28E /* GetJobPostUseCase.swift in Sources */,
+				AE7C776E2507A84900EFA28E /* PutStudyPostUseCase.swift in Sources */,
+				AE6E55E12507718A00F87353 /* WriteGetStudyGroupViewController.swift in Sources */,
+				AE7C773125078C8C00EFA28E /* DeleteJobRequest.swift in Sources */,
+				AE6E55D32507563500F87353 /* GetStudyMemberViewReactor.swift in Sources */,
+				AE7C775725079AC600EFA28E /* StudyPost.swift in Sources */,
+				AE7C77762507A89400EFA28E /* PutJobPostUseCase.swift in Sources */,
+				AE7C77742507A89000EFA28E /* PostJobPostUseCase.swift in Sources */,
+				AE7C773325078C9800EFA28E /* PutJobRequest.swift in Sources */,
+				AE7C776A2507A82B00EFA28E /* GetStudyPostUseCase.swift in Sources */,
+				AE7C7740250791F400EFA28E /* StudyRemote.swift in Sources */,
+				AE7C7748250798D500EFA28E /* JobDataSource.swift in Sources */,
+				AE6E55DB2507567300F87353 /* GetStudyMemberViewController.swift in Sources */,
 				AED3C1A32507180600FD13A6 /* CustomError.swift in Sources */,
-				AED3C1682507158200FD13A6 /* ViewController.swift in Sources */,
+				AE7C772C2507875400EFA28E /* MoiraGetMemberAPI.swift in Sources */,
+				AE7C77592507A06400EFA28E /* LoginResponse.swift in Sources */,
+				AE2C8CAD2507C30D005DBFA0 /* JobViewCell.swift in Sources */,
+				AE2C8CAF2507C318005DBFA0 /* StudyViewCell.swift in Sources */,
 				AED3C1B22507189B00FD13A6 /* UIViewController.swift in Sources */,
+				AE7C77782507A89A00EFA28E /* DeleteJobPostUseCase.swift in Sources */,
+				AE7C77832507B8E300EFA28E /* PortfolioRemote.swift in Sources */,
 				AED3C1D72507191D00FD13A6 /* BaseRegisterViewController.swift in Sources */,
+				AE6E55D92507566300F87353 /* GetJobController.swift in Sources */,
 				AED3C1BE250718C000FD13A6 /* RepositoryAssembly.swift in Sources */,
 				AED3C1BC250718C000FD13A6 /* DataSourceAssembly.swift in Sources */,
+				AE3CC2F025077E7C000BDF47 /* MoiraAuthAPI.swift in Sources */,
+				AE3CC2EC2507794E000BDF47 /* WriteGetJobViewReactor.swift in Sources */,
+				AE7C77632507A66A00EFA28E /* StudyRepositoryImpl.swift in Sources */,
+				AEE06E7825084CC1004BFED3 /* LoginReactor.swift in Sources */,
 				AED3C1B02507189B00FD13A6 /* String.swift in Sources */,
+				AE7C775F2507A5CC00EFA28E /* JobRepository.swift in Sources */,
 				AED3C1BD250718C000FD13A6 /* ReactorAssembly.swift in Sources */,
+				AE7C777A2507A8AC00EFA28E /* PostLoginUseCase.swift in Sources */,
+				AE7C773E250790C100EFA28E /* AuthRemote.swift in Sources */,
 				AED3C1B12507189B00FD13A6 /* Reactive.swift in Sources */,
 				AED3C1BF250718C000FD13A6 /* UseCaseAssembly.swift in Sources */,
 				AED3C1B32507189B00FD13A6 /* Formatter.swift in Sources */,
 				AED3C1C0250718C000FD13A6 /* DependencyProvider.swift in Sources */,
+				AE7C775D2507A5C000EFA28E /* StudyRepository.swift in Sources */,
+				AE6E55D72507565C00F87353 /* HomeViewController.swift in Sources */,
+				AE3CC2EE25077958000BDF47 /* WriteGetStudyGroupViewReactor.swift in Sources */,
+				AE7C773A25078D9500EFA28E /* DeleteStudyRequest.swift in Sources */,
+				AE7C777E2507B50D00EFA28E /* MoiraPortfolioAPI.swift in Sources */,
 				AED3C1AF2507189B00FD13A6 /* Date.swift in Sources */,
+				AEE6E507250843C800CE0BFF /* JobMoreViewCell.swift in Sources */,
+				AE7C77652507A67100EFA28E /* JobRepositoryImpl.swift in Sources */,
 				AED3C1D22507191D00FD13A6 /* BaseRemote.swift in Sources */,
 				AED3C1A0250717F600FD13A6 /* NetWorkError.swift in Sources */,
+				AE7C772F25078C8200EFA28E /* PostJobRequest.swift in Sources */,
 				AED3C2872507196900FD13A6 /* AuthController.swift in Sources */,
+				AE7C775525079ABF00EFA28E /* JobPost.swift in Sources */,
+				AE7C775325079AB900EFA28E /* JobStudyPostBase.swift in Sources */,
 				AED3C1D52507191D00FD13A6 /* BaseDbManager.swift in Sources */,
 				AED3C1D42507191D00FD13A6 /* BaseCache.swift in Sources */,
+				AE7C776C2507A84400EFA28E /* PostStudyPostUseCase.swift in Sources */,
 				AED3C2862507196900FD13A6 /* KeychainService.swift in Sources */,
+				AE7C775B2507A5A800EFA28E /* AuthRepository.swift in Sources */,
 				AED3C1642507158200FD13A6 /* AppDelegate.swift in Sources */,
 				AED3C1662507158200FD13A6 /* SceneDelegate.swift in Sources */,
+				AE7C7746250798CC00EFA28E /* StudyDataSource.swift in Sources */,
+				AE6E55DD2507568700F87353 /* AllViewController.swift in Sources */,
+				AE6E55CF250755FC00F87353 /* HomeViewReactor.swift in Sources */,
 				AED3C1D62507191D00FD13A6 /* BaseDataSource.swift in Sources */,
 				AED3C1AE2507189B00FD13A6 /* UIActivityIndicatorView.swift in Sources */,
 				AED3C1D12507191D00FD13A6 /* BaseUseCase.swift in Sources */,
+				AE6E55EA2507724800F87353 /* StudyGroupViewerViewController.swift in Sources */,
+				AE6E55E82507723800F87353 /* JobViewerViewController.swift in Sources */,
+				AEE06E7625084AB7004BFED3 /* LoginViewController.swift in Sources */,
+				AE7C77422507920600EFA28E /* JobRemote.swift in Sources */,
 				AED3C29425071AC000FD13A6 /* TimeDbManager.swift in Sources */,
+				AE7C777C2507A8B400EFA28E /* PostRegisterUseCase.swift in Sources */,
+				AE7C773C25078DA100EFA28E /* PutStudyRequest.swift in Sources */,
+				AE7C77702507A84E00EFA28E /* DeleteStudyPostUseCase.swift in Sources */,
+				AE6E55DF2507716100F87353 /* WriteGetJobViewController.swift in Sources */,
+				AE3CC2E82507792F000BDF47 /* JobViewerViewReactor.swift in Sources */,
+				AED3C29E250722C000FD13A6 /* CardView.swift in Sources */,
 				AED3C23B2507193700FD13A6 /* Response.swift in Sources */,
+				AE7C7744250798C300EFA28E /* AuthDataSource.swift in Sources */,
+				AEE6E50C250843F400CE0BFF /* StudyMoreViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
